@@ -26,10 +26,10 @@ This repository demonstrates **real-time neural network inference** on continuou
 ## 🧩 System Overview
 
 ```text
- ┌────────────┐     ┌────────────┐     ┌──────────────┐     ┌──────────────┐
- │ Audio Mic  │ →→→ │ STFT Block │ →→→ │ Neural Net   │ →→→ │ Real-Time GUI│
- │ (Live Input│     │ (Sliding)  │     │ (ONNX model) │     │ Wave + STFT  │
- └────────────┘     └────────────┘     └──────────────┘     └──────────────┘
+ ┌────────────┐     ┌────────────┐     ┌──────────────┐     ┌───────────────┐
+ │ Audio Mic  │ →→→ │ STFT Block │ →→→ │  Neural Net  │ →→→ │ Real-Time GUI │
+ │(Live Input)│     │  (Sliding) │     │ (ONNX model) │     │  Wave + STFT  │
+ └────────────┘     └────────────┘     └──────────────┘     └───────────────┘
 ```
 
 Internally, the demo maintains three ring buffers:
@@ -133,9 +133,7 @@ The GUI displays:
 ## 🧩 Typical Use Cases
 
 - Real-time speech enhancement / denoising
-- Beamforming or attention-based filtering demos
 - EEG / EMG / physiological time-series processing with sliding neural inference
-- Educational demos of streaming ML + DSP integration
 
 ---
 
@@ -147,22 +145,8 @@ real-time-audio-inference/
 ├── myBuffer.m
 ├── models/
 │   └── best_model.onnx
-├── utils/
-│   └── (optional helper scripts)
 └── README.md
 ```
-
----
-
-## 🧑‍💻 Author
-
-Developed by Vishal (PhD, Columbia University). Research focus: Brain-controlled hearing, audio ML, and real-time signal processing.
-
----
-
-## 📄 License
-
-MIT License © Vishal. You are free to use, modify, and distribute with attribution.
 
 ---
 
