@@ -58,7 +58,7 @@ Clone this repository:
 
 ```bash
 git clone https://github.com/vishalchoudhari11/Real-Time-Neural-Net-Inference-Demo.git
-cd Real-Time-Neural-Net-Inference-Demo
+cd real-time-audio-inference
 ```
 
 Open MATLAB and add this folder to the path:
