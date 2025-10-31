@@ -57,8 +57,8 @@ Each buffer continuously updates and overwrites old data, keeping the visualizat
 Clone this repository:
 
 ```bash
-git clone https://github.com/<your-username>/real-time-audio-inference.git
-cd real-time-audio-inference
+git clone https://github.com/vishalchoudhari11/Real-Time-Neural-Net-Inference-Demo.git
+cd Real-Time-Neural-Net-Inference-Demo
 ```
 
 Open MATLAB and add this folder to the path:
