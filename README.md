@@ -1,4 +1,4 @@
-# Real-Time Neural Network Inference on Streaming Audio (MATLAB)
+# Real-Time Neural Network Inference on Streaming Time-Series Data
 
 This repository demonstrates **real-time neural network inference** on continuous time-series data (e.g., microphone input) using MATLAB. It processes an **incoming audio stream**, computes a **Short-Time Fourier Transform (STFT)** in real time, and performs **neural network enhancement/denoising** before visualizing results live.
 
